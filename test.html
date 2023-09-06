@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cafe Visit - Hamzah </title>
+</head>
+<body>
+    <script>
+        let name = prompt("Masukkan nama Anda: ");
+        
+        if (name === "") {
+            console.log("Anda tidak boleh masuk!");
+        } else {
+            let age = parseInt(prompt("Masukkan usia Anda: "));
+            let money = parseInt(prompt("Masukkan jumlah uang Anda (dalam Rupiah): "));
+
+            let drinkPrice;
+
+            if (age < 17) {
+                drinkPrice = 50000; 
+            } else {
+                drinkPrice = 300000
+            }
+
+            if (money < drinkPrice) {
+                prompt("Uang tidak cukup. Anda harus pulang.");
+            } else {
+                money -= drinkPrice;
+                prompt("Anda bisa pesan minum. Sisa uang anda: " + money);
+            }
+        }
+    </script>
+</body>
+</html>
