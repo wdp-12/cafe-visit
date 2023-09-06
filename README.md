@@ -20,4 +20,4 @@ Seseorang pengunjung bar direpresentasikan oleh JavaScript memiliki variable nam
 Buatlah pseudocode dan programnya!
 
 **RESTRICTION**:
-Tidak boleh menggunakan built-in function apapun
+Tidak boleh menggunakan built-in function apapun dengan apapun
