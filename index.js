@@ -1,5 +1,6 @@
-// PROGRAM CAFE_VISITATION
+// pseudocode
 
+// PROGRAM CAFE_VISITATION
 // STORE "name" with any value
 // STORE "age" with any value
 // STORE "money" with any value
@@ -20,7 +21,7 @@
 //         STORE "kembalian" with "money" minus "harga"
 //         DISPLAY "Anda bisa pesan minum, sisa uang anda : " + kembalian
 
-
+//programnya
 let name = "jejen";
 let age = 20;
 let money = 500000;
